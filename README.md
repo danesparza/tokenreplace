@@ -1,7 +1,7 @@
 # tokenreplace
 A simple token replacement command-line tool for files, written in Go.  
 
-[![Build Status](https://drone.io/github.com/danesparza/tokenreplace/status.png)](https://drone.io/github.com/danesparza/tokenreplace/latest)
+Build: [![Circle CI](https://circleci.com/gh/danesparza/tokenreplace.svg?style=svg)](https://circleci.com/gh/danesparza/tokenreplace)
 
 Recently, I needed a nice solution for updating a build number in a deployment document.  I decided to use a token in the deployment document.  The token gets updated in a batch file by calling this tool.
 
